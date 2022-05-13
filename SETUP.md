@@ -25,9 +25,9 @@ npm init
 
 ## 3. Cài đặt thư viện
 
-Cài đặt Hardhat:
+Cài đặt Hardhat và các thư viện phụ trợ:
 ```bash
-npm install --save-dev hardhat
+npm install --save-dev hardhat dotenv solc web3
 ```
 
 Chạy lệnh này để bắt đầu quá trình khởi tạo Hardhat project:
