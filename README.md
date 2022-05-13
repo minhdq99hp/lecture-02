@@ -1,13 +1,25 @@
-# Basic Sample Hardhat Project
+# Lecture 02
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Setup working environment
 
-Try running some of the following tasks:
+```bash
+npm install
+```
+
+Note: chưa có npm thì phải cài nodejs
+
+## Các lệnh cơ bản của Hardhat
 
 ```shell
+# Hiện thông tin về các accounts
 npx hardhat accounts
+
+# Dịch các contract có trong thư mục contracts/
 npx hardhat compile
+
 npx hardhat clean
+
+# kiểm thử, chạy các file trong thư mục tests/
 npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
